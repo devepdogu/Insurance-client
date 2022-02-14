@@ -132,6 +132,13 @@ body {
         input {
             width: calc($maxWidth / 1) !important;
             margin-left:15px!important;
+             &::placeholder {
+                letter-spacing: 1px!important;
+            }
         }
+        i{
+            font-size:18px;
+        }
+        
     }
 }
