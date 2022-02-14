@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-
+import './_App.scss';
+import { Container, Row, Col } from 'react-bootstrap'
+import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <Row className="justify-content-md-center">
+
+        <Col md="auto">
+          <div className='searchBar'>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </Col>
+
+
+      </Row>
+    </Container>
   );
 }
 
