@@ -1,8 +1,0 @@
-$black: #222;
-$primaryColor: #f49ad1;
-
-
-@use '_App' with (
-  $black: $black,
-  $border-radius: 0.1rem
-);
