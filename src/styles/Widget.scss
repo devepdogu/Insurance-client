@@ -21,6 +21,7 @@
             font-size: 22px;
         }
         input {
+            border-radius:0px;
             outline: none;
             margin-left: 30px;
             width: calc($maxWidth / 1.5);
@@ -130,6 +131,7 @@ body {
     .searchBar {
         input {
             width: calc($maxWidth / 1) !important;
+            margin-left:15px;
         }
     }
 }
