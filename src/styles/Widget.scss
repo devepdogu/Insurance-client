@@ -131,7 +131,7 @@ body {
     .searchBar {
         input {
             width: calc($maxWidth / 1) !important;
-            margin-left:15px;
+            margin-left:15px!important;
         }
     }
 }
